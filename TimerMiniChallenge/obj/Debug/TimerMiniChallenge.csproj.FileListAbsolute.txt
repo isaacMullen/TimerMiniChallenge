@@ -5,3 +5,10 @@ C:\Isaacs Programming Projects\TimerMiniChallenge\TimerMiniChallenge\bin\Debug\T
 C:\Isaacs Programming Projects\TimerMiniChallenge\TimerMiniChallenge\bin\Debug\TimerMiniChallenge.pdb
 C:\Isaacs Programming Projects\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.exe
 C:\Isaacs Programming Projects\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.pdb
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\bin\Debug\TimerMiniChallenge.exe.config
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\bin\Debug\TimerMiniChallenge.exe
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\bin\Debug\TimerMiniChallenge.pdb
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.csproj.AssemblyReference.cache
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.csproj.CoreCompileInputs.cache
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.exe
+E:\class\CLASS PROJECTS\Unity\In Progress\TimerMiniChallenge\TimerMiniChallenge\obj\Debug\TimerMiniChallenge.pdb

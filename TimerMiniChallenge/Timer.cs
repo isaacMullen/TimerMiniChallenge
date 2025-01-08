@@ -12,7 +12,9 @@ namespace TimerMiniChallenge
     {
         private int time;
 
-        private bool isRunning = true;
+        //'Volatile' to ensure up to date values are read regardless of compiler optimizations (important for asynchronous threading)
+        private volatile bool isRunning = true;
+        private volatile bool isCancelled = false;
         
         public Timer(int initialTime)
         {                       
@@ -25,24 +27,32 @@ namespace TimerMiniChallenge
 
         public void StartCountDown(CancellationToken cancellationToken)
         {                        
-            while (time >= 0)
+            while (time > 0)
             {
-                if (cancellationToken.IsCancellationRequested || !isRunning)
-                {
+                //Validating the thread to continue if the thread is not cancelled
+                if (cancellationToken.IsCancellationRequested || isCancelled)
+                {                   
                     return;
                 }
+                //Checking for being paused every 100 miliseconds to avoid over consumption of resources
                 while (!isRunning)
                 {
-                    Thread.Sleep(100); // Avoid busy waiting
+                    Thread.Sleep(100); 
                 }
 
                 Console.Clear();
                 Console.WriteLine($"Time remaining: {time} seconds");
                 Thread.Sleep(1000); // Simulate a 1-second interval
                 time--;
-            }
+            }           
         }                  
         
+        //Used in junction with a boolean to stop the input thread when the timer is at 0
+        public int GetTime()
+        {
+            return time; 
+        }
+
         public void Pause()
         {
             isRunning = false;
@@ -51,6 +61,11 @@ namespace TimerMiniChallenge
         public void Resume()
         {
             isRunning = true;
+        }
+
+        public void Cancel()
+        {
+            isCancelled = true; 
         }
     }
 }
