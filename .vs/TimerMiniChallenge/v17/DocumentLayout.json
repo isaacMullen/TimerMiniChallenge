@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|solutionrelative:timerminichallenge\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|c:\\isaacs programming projects\\timerminichallenge\\timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|C:\\Isaacs Programming Projects\\TimerMiniChallenge\\timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|solutionrelative:timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Timer.cs",
-              "RelativeDocumentMoniker": "TimerMiniChallenge\\Timer.cs",
-              "ToolTip": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Timer.cs",
-              "RelativeToolTip": "TimerMiniChallenge\\Timer.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:01:05.117Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -43,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Timer.cs",
+              "RelativeDocumentMoniker": "TimerMiniChallenge\\Timer.cs",
+              "ToolTip": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Timer.cs",
+              "RelativeToolTip": "TimerMiniChallenge\\Timer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T14:01:05.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Program.cs",
               "RelativeDocumentMoniker": "TimerMiniChallenge\\Program.cs",
               "ToolTip": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Program.cs",
               "RelativeToolTip": "TimerMiniChallenge\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T14:00:36.886Z",
               "EditorCaption": ""

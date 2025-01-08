@@ -11,6 +11,8 @@ namespace TimerMiniChallenge
     internal class Timer
     {
         private int time;
+
+        private bool isRunning = true;
         
         public Timer(int initialTime)
         {                       
@@ -21,27 +23,34 @@ namespace TimerMiniChallenge
             time = initialTime;
         }
 
-        public void StartCountDown()
-        {
-            PerformCountDown();
-        }
-
-        private void PerformCountDown()
-        {
-            //Displaying Initial Time
-            Console.WriteLine(time);
-
+        public void StartCountDown(CancellationToken cancellationToken)
+        {                        
             while (time >= 0)
             {
-                Thread.Sleep(1000);
-                time -= 1;
-                Console.WriteLine(time);      
-            }                                    
-        }  
+                if (cancellationToken.IsCancellationRequested || !isRunning)
+                {
+                    return;
+                }
+                while (!isRunning)
+                {
+                    Thread.Sleep(100); // Avoid busy waiting
+                }
+
+                Console.Clear();
+                Console.WriteLine($"Time remaining: {time} seconds");
+                Thread.Sleep(1000); // Simulate a 1-second interval
+                time--;
+            }
+        }                  
         
-        public int GetCurrentTime()
+        public void Pause()
         {
-            return time;
-        }       
+            isRunning = false;
+        }
+
+        public void Resume()
+        {
+            isRunning = true;
+        }
     }
 }

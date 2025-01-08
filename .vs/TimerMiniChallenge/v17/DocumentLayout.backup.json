@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|c:\\isaacs programming projects\\timerminichallenge\\timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|C:\\Isaacs Programming Projects\\TimerMiniChallenge\\timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF3761DF-DC4E-41AD-9315-A1B628B64C39}|TimerMiniChallenge\\TimerMiniChallenge.csproj|solutionrelative:timerminichallenge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "TimerMiniChallenge\\Timer.cs",
               "ToolTip": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Timer.cs",
               "RelativeToolTip": "TimerMiniChallenge\\Timer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T14:01:05.117Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "TimerMiniChallenge\\Program.cs",
               "ToolTip": "C:\\Isaacs Programming Projects\\TimerMiniChallenge\\TimerMiniChallenge\\Program.cs",
               "RelativeToolTip": "TimerMiniChallenge\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-08T14:00:36.886Z",
               "EditorCaption": ""
